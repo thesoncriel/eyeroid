@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" ><TextView android:text="@string/sal_reg_date" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/salReg_tvDate"></TextView><Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2010-09-28 13:16" android:id="@+id/salReg_btnDate"></Button><TextView android:text="@string/srv_name" android:id="@+id/salReg_tvName"></TextView>
+
+	<AutoCompleteTextView android:layout_height="wrap_content" android:hint="@string/srv_name" android:layout_width="wrap_content" android:id="@+id/salReg_aetName" android:completionThreshold="1"></AutoCompleteTextView>
+
+
+
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sal_price" android:id="@+id/salReg_tvPrice"></TextView>
+<TextView android:layout_height="wrap_content" android:text="@string/cus_phon" android:layout_width="wrap_content" android:layout_marginLeft="15dp" android:id="@+id/salReg_tvCusPhon"></TextView>
+
+
+
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:hint="@string/sal_price" android:id="@+id/salReg_etPrice" android:numeric="integer"></EditText>
+<AutoCompleteTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/cus_phon" android:layout_marginLeft="15dp" android:id="@+id/salReg_aetCusPhon" android:completionThreshold="2" android:numeric="integer"></AutoCompleteTextView>
+
+
+</TableRow><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sal_serial" android:id="@+id/salReg_tvSerial"></TextView>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/sal_serial" android:id="@+id/salReg_etSerial"></EditText>
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/car_type" android:id="@+id/salReg_tvCartype"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/car_num" android:layout_marginLeft="15dp" android:id="@+id/salReg_tvCarnum"></TextView>
+
+</TableRow><TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<AutoCompleteTextView android:layout_height="wrap_content" android:hint="@string/car_type" android:layout_width="150dp" android:id="@+id/salReg_aetCarType" android:completionThreshold="1"></AutoCompleteTextView>
+<EditText android:layout_height="wrap_content" android:hint="@string/car_num" android:layout_width="150dp" android:layout_marginLeft="15dp" android:id="@+id/salReg_etCarNum"></EditText>
+
+</TableRow><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnSubmit" android:layout_marginTop="10dp" android:padding="20dp" android:textSize="15px" android:id="@+id/salReg_btnSubmit"></Button>
+</TableLayout>
+</ScrollView>

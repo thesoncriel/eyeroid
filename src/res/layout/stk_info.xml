@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="5dp" android:background="@drawable/bg_common_info"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="상품명 " android:layout_marginTop="20dp" android:layout_marginLeft="30dp" android:id="@+id/stkInfo_tvName"></TextView><TextView android:layout_height="wrap_content" android:textSize="20dp" android:layout_marginLeft="40dp" android:text="네비게이션 " android:layout_width="240dp" android:id="@+id/stkInfo_tvNameValue" android:layout_marginTop="3dp"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="분류명 " android:layout_marginLeft="30dp" android:id="@+id/stkInfo_tvCate" android:layout_marginTop="3dp"></TextView><TextView android:layout_height="wrap_content" android:textSize="20dp" android:layout_marginTop="3dp" android:layout_marginLeft="40dp" android:text="네비게이션 " android:layout_width="240dp" android:id="@+id/stkInfo_tvCateValue"></TextView><LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="3dp">
+<TextView android:layout_height="wrap_content" android:text="모델명 " android:layout_width="120dp" android:id="@+id/stkInfo_tvModel"></TextView><TextView android:layout_height="wrap_content" android:text="바코드 값 " android:layout_width="120dp" android:id="@+id/stkInfo_tvCode"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="3dp"><TextView android:layout_height="wrap_content" android:text="DS187" android:layout_width="120dp" android:id="@+id/stkInfo_tvModelValue" android:singleLine="true" android:textSize="15dp"></TextView><TextView android:layout_height="wrap_content" android:text="8486468" android:id="@+id/stkInfo_tvCodeValue" android:layout_width="140dp" android:singleLine="true" android:textSize="15dp"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="3dp"><TextView android:layout_height="wrap_content" android:text="재고량 " android:layout_width="120dp" android:id="@+id/stkInfo_tvEa"></TextView><TextView android:layout_height="wrap_content" android:text="경고량 " android:layout_width="120dp" android:id="@+id/stkInfo_tvAlertEa"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="3dp">
+<TextView android:layout_height="wrap_content" android:textSize="20dp" android:text="5" android:layout_width="120dp" android:id="@+id/stkInfo_tvEaValue"></TextView><TextView android:layout_height="wrap_content" android:textSize="20dp" android:text="1" android:layout_width="120dp" android:id="@+id/stkInfo_tvAlertEaValue"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="3dp"><TextView android:layout_height="wrap_content" android:text="제조사 / 공급처 " android:layout_width="120dp" android:id="@+id/stkInfo_tvMaker"></TextView><TextView android:layout_height="wrap_content" android:text="최근 입고 일자 " android:layout_width="120dp" android:id="@+id/stkInfo_tvDate"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginLeft="40dp"><TextView android:layout_height="wrap_content" android:textSize="20dp" android:text="(주)네비 " android:layout_width="120dp" android:id="@+id/stkInfo_tvMakerValue"></TextView><TextView android:layout_height="wrap_content" android:textSize="20dp" android:text="0000-00-00" android:layout_width="120dp" android:id="@+id/stkInfo_tvDateValue"></TextView></LinearLayout>
+
+</LinearLayout>
+
+
+
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginRight="1dp"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="20dp" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_marginRight="25dp" android:layout_marginLeft="7dp" android:id="@+id/stkInfo_btnMod" android:text="@string/btnMod"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:paddingLeft="20dp" android:paddingRight="20dp" android:textSize="20dp" android:layout_marginRight="25dp" android:id="@+id/stkInfo_btnDel" android:text="@string/btnDel"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:paddingLeft="20dp" android:paddingRight="20dp" android:textSize="20dp" android:layout_gravity="center" android:id="@+id/stkInfo_btnOK" android:text="@string/btnOK"></Button></TableRow>
+</LinearLayout>

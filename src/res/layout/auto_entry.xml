@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="300dp" android:background="#ffffff">
+<TextView android:layout_width="wrap_content" android:id="@+id/auto_tv0" android:textColor="#444444" android:layout_height="50dp" android:padding="10dp" android:textSize="25dp" android:text="000-0000-0000" android:singleLine="true"></TextView>
+<TextView android:text="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/auto_tv1" android:visibility="gone"></TextView>
+<TextView android:text="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/auto_tv2" android:visibility="gone"></TextView>
+<TextView android:text="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/auto_tv3" android:visibility="gone"></TextView>
+</LinearLayout>

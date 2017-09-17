@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<ImageButton android:layout_height="wrap_content" android:background="@drawable/icon_camera" android:id="@+id/stkReg_ibCamera" android:layout_width="wrap_content" android:layout_marginTop="20dp" android:layout_marginLeft="190dp"></ImageButton>
+<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkReg_tvName" android:text="@string/stk_reg_name"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_etName" android:hint="@string/stk_reg_name"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkReg_tvCate" android:text="@string/stk_reg_cate"></TextView>
+<AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_aetCate" android:completionThreshold="1" android:hint="@string/stk_reg_cate"></AutoCompleteTextView>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TextView android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_tvModel" android:text="@string/stk_reg_model"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkReg_tvCode" android:text="@string/stk_reg_code"></TextView></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<EditText android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_etModel" android:hint="@string/stk_reg_model"></EditText>
+<EditText android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_etCode" android:hint="@string/stk_reg_code"></EditText></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TextView android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_tvEa" android:text="@string/stk_reg_ea"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkReg_tvAlertEa" android:text="@string/stk_reg_alertEa"></TextView></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<EditText android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_etEa" android:numeric="integer" android:hint="@string/stk_reg_ea"></EditText>
+<EditText android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_etAlertEa" android:numeric="integer" android:hint="@string/stk_reg_alertEa"></EditText></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TextView android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_tvMaker" android:text="@string/stk_reg_maker"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkReg_tvDate" android:text="@string/stk_reg_date"></TextView></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="160dp" android:id="@+id/stkReg_aetMaker" android:completionThreshold="1" android:hint="@string/stk_reg_maker"></AutoCompleteTextView>
+<Button android:layout_height="wrap_content" android:layout_width="160dp" android:text="2010-06-01" android:id="@+id/stkReg_btnDate"></Button></LinearLayout><Button android:layout_height="wrap_content" android:layout_width="320dp" android:text="@string/btnSubmit" android:id="@+id/stkReg_btnSubmit"></Button></LinearLayout>
+</RelativeLayout>
+</ScrollView>

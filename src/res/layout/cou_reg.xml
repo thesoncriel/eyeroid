@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+<LinearLayout
+  
+  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TextView android:id="@+id/cusCouReg_tv1" android:layout_height="wrap_content" android:text="@string/cus_reg_phon" android:layout_width="fill_parent"></TextView>
+<AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:phoneNumber="true" android:hint="@string/cus_reg_phon" android:id="@+id/couReg_aetPhon" android:completionThreshold="2"></AutoCompleteTextView>
+<TextView android:id="@+id/cusCouReg_tv2" android:layout_height="wrap_content" android:text="@string/cus_reg_name" android:layout_width="fill_parent"></TextView><EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/cus_reg_name" android:id="@+id/couReg_etName"></EditText>
+<TextView android:id="@+id/cusCouReg_tv3" android:layout_height="wrap_content" android:text="@string/cus_reg_cont" android:layout_width="fill_parent"></TextView><EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:singleLine="false" android:height="80dp" android:hint="@string/cus_reg_cont" android:id="@+id/couReg_etCont"></EditText>
+<TextView android:id="@+id/cusCouReg_tv4" android:layout_height="wrap_content" android:text="@string/cus_reg_acc_date" android:layout_width="fill_parent"></TextView><Button android:layout_height="wrap_content" android:text="2010-06-01 21:25:00" android:layout_width="fill_parent" android:textSize="20dp" android:id="@+id/couReg_btnAccDate"></Button>
+<TextView android:id="@+id/cusCouReg_tv5" android:layout_height="wrap_content" android:text="@string/cus_reg_res_date" android:layout_width="fill_parent"></TextView><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="20dp" android:text="없음(예약 등록 진행시 클릭)" android:id="@+id/couReg_btnResDate"></Button>
+
+
+
+
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="15dp" android:text="@string/btnSubmit" android:id="@+id/couReg_btnSubmit"></Button>
+
+
+</LinearLayout>
+</ScrollView>

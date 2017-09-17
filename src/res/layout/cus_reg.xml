@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:gravity="left" android:orientation="vertical">
+	
+	
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/cus_reg_phon" android:id="@+id/cusReg_tvPhon"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:phoneNumber="true" android:hint="@string/cus_reg_phon" android:id="@+id/cusReg_etPhon"></EditText>
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/cus_reg_name" android:id="@+id/cusReg_tvName"></TextView>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/cus_reg_name" android:id="@+id/cusReg_etName"></EditText><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/cus_reg_car_type" android:id="@+id/cusReg_tvCarType"></TextView>
+
+<AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/cus_reg_car_type" android:id="@+id/cusReg_aetCarType" android:completionThreshold="1"></AutoCompleteTextView>
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/cus_reg_car_num" android:id="@+id/cusReg_tvCarNum"></TextView><EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/cus_reg_car_num" android:id="@+id/cusReg_etCarNum"></EditText><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/cus_reg_service" android:id="@+id/cusReg_tvService" android:visibility="gone"></TextView><Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/cusReg_spService" android:visibility="gone"></Spinner>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+<Button android:layout_height="wrap_content" android:text="작성 완료" android:layout_gravity="right" android:width="150px" android:layout_marginTop="15dp" android:id="@+id/cusReg_btnSubmit" android:layout_width="fill_parent"></Button>
+<TextView android:text="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/cusReg_tvDate" android:visibility="gone"></TextView>
+</LinearLayout>
+</ScrollView>

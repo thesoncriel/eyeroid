@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TableRow>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_acc_name" android:id="@+id/aftReg_tvAccName"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_pro_date" android:id="@+id/aftReg_tvProDate"></TextView>
+</TableRow>
+<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<AutoCompleteTextView android:hint="@string/aft_reg_acc_name" android:layout_width="160dp" android:layout_height="wrap_content" android:id="@+id/aftReg_aetAccName" android:completionThreshold="1"></AutoCompleteTextView>
+<Button android:layout_height="wrap_content" android:layout_width="160dp" android:text="2010-06-01" android:id="@+id/aftReg_btnProDate"></Button>
+
+</TableRow><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_fixprice" android:id="@+id/aftReg_tvFixPrice"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/aftReg_etFixPrice" android:hint="@string/aft_reg_fixprice" android:numeric="integer"></EditText><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_car_num" android:id="@+id/aftReg_tvCarNum"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_run_dist" android:id="@+id/aftReg_tvRunDist"></TextView>
+
+
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="160dp" android:id="@+id/aftReg_etCarNum" android:hint="@string/aft_reg_car_num"></EditText><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="160dp" android:id="@+id/aftReg_etRunDist" android:hint="@string/aft_reg_run_dist" android:numeric="integer"></EditText>
+</TableRow>
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_car_body" android:id="@+id/aftReg_tvCarBody"></TextView>
+<AutoCompleteTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/aft_reg_car_body" android:id="@+id/aftReg_aetCarBody" android:completionThreshold="1"></AutoCompleteTextView>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnSubmit" android:id="@+id/aftReg_btnSubmit" android:textSize="25dp" android:layout_marginTop="10dp"></Button>
+</TableLayout>
+</ScrollView>

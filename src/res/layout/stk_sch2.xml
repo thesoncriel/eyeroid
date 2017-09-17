@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/stkSch_etSearch"></EditText>
+<ListView android:layout_width="fill_parent" android:layout_height="335dp" android:id="@+id/stkSch_lvList"></ListView>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_height="wrap_content" android:text="추가 " android:layout_width="150dp" android:id="@+id/stkSch_btnAdd"></Button></LinearLayout>
+
+</LinearLayout>

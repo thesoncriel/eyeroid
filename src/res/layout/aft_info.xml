@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center" android:background="@drawable/bg_aft_info">
+
+
+<TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="16dp"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:id="@+id/aftInfo_tvAccNum" android:text="@string/aft_reg_acc_num"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginLeft="80dp" android:id="@+id/aftInfo_tvAccDate" android:text="@string/aft_reg_acc_date"></TextView>
+
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="38dp">
+<TextView android:layout_marginLeft="8dp" android:layout_height="wrap_content" android:layout_width="140dp" android:text="000000000" android:textSize="20px" android:id="@+id/aftInfo_tvAccNumValue"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2010-10-07 01:33" android:textSize="17px" android:id="@+id/aftInfo_tvAccDateValue"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="65dp" android:layout_marginLeft="14dp"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:id="@+id/aftInfo_tvCusName" android:text="@string/aft_reg_cus_name"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95dp" android:id="@+id/aftInfo_tvCusPhon" android:text="@string/aft_reg_cus_phon"></TextView>
+
+</TableRow><TableRow android:id="@+id/TableRow05" android:layout_height="wrap_content" android:layout_marginTop="85dp" android:layout_marginLeft="14dp" android:layout_width="300dp">
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="ParkBori" android:textSize="20px" android:layout_width="140dp" android:id="@+id/aftInfo_tvCusNameValue"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20px" android:text="011-9546-0992" android:id="@+id/aftInfo_tvCusPhonValue"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow06" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="113dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:id="@+id/aftInfo_tvAddr" android:text="@string/aft_reg_cus_addr"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow07" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="132dp" android:layout_marginLeft="6dp"><TextView android:layout_height="wrap_content" android:text="경남 창원시 마산회원구 회성동 102-116 630-826" android:layout_width="280dp" android:textSize="20px" android:layout_marginLeft="14dp" android:id="@+id/aftInfo_tvCusAddrValue"></TextView>
+
+</TableRow><TableRow android:id="@+id/TableRow08" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="183dp" android:layout_marginLeft="14dp">
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="8dp" android:text="@string/aft_reg_model" android:id="@+id/aftInfo_tvModel"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_make_num" android:layout_marginLeft="95dp" android:id="@+id/aftInfo_tvMakeNum"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow09" android:layout_height="wrap_content" android:layout_marginTop="201dp" android:layout_marginLeft="14dp" android:layout_width="wrap_content">
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Navegation" android:textSize="20px" android:layout_width="140dp" android:id="@+id/aftInfo_tvModelValue"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3355" android:textSize="20px" android:id="@+id/aftInfo_tvMakeNumValue"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow10" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="230dp" android:layout_marginLeft="14dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/aft_reg_pro_date" android:id="@+id/aftInfo_tvSalDate"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aft_reg_warranty" android:layout_marginLeft="80dp" android:id="@+id/aftInfo_tvWarranty"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow11" android:layout_height="wrap_content" android:layout_marginTop="250dp" android:layout_width="wrap_content" android:layout_marginLeft="14dp">
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="2010-08-17" android:textSize="20px" android:layout_width="140dp" android:id="@+id/aftInfo_tvSalDateValue"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="yes" android:textSize="20px" android:id="@+id/aftInfo_tvWarrantyValue"></TextView>
+</TableRow><TableRow android:id="@+id/TableRow12" android:layout_height="wrap_content" android:layout_marginTop="277dp" android:layout_width="wrap_content" android:layout_marginLeft="14dp"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/aft_reg_acc_cont" android:id="@+id/aftInfo_tvAccCont"></TextView>
+</TableRow>
+<TableRow android:id="@+id/TableRow13" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="297dp"><TextView android:layout_height="wrap_content" android:text="nave a/s" android:layout_width="260dp" android:textSize="20px" android:layout_marginLeft="8dp" android:id="@+id/aftInfo_tvAccContValue"></TextView>
+</TableRow></RelativeLayout>
+
+<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp">
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="20px" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_marginLeft="20dp" android:text="@string/btnMod" android:id="@+id/aftInfo_btnMod"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20px" android:gravity="center" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_marginLeft="10dp" android:text="@string/btnDel" android:id="@+id/aftInfo_btnDel"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20px" android:layout_gravity="center" android:gravity="center" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_marginLeft="10dp" android:text="@string/btnOK" android:id="@+id/aftInfo_btnOK"></Button>
+</TableRow>
+
+
+
+
+</LinearLayout>

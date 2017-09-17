@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" ><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="180dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stkin_reg_name" android:id="@+id/stkin_reg_tvName"></TextView>
+<EditText android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/stkin_reg_name" android:id="@+id/stkin_reg_etName"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkin_reg_tvModel" android:text="@string/stkin_reg_model"></TextView>
+<EditText android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/stkin_reg_model" android:id="@+id/stkin_reg_etModel"></EditText>
+</LinearLayout>
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_margin="10dp" android:src="@drawable/icon_camera" android:paddingRight="10dp" android:paddingTop="10dp" android:id="@+id/stkinReg_ibCamera"></ImageButton>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_below="@id/LinearLayout01" android:orientation="vertical" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"><RelativeLayout android:id="@+id/RelativeLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stkin_reg_tvCode" android:text="@string/stkin_reg_code"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_toRightOf="@+id/stkin_reg_tvCode" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:gravity="right" android:id="@+id/stkin_reg_tvCode" android:text="@string/stkin_reg_socket" android:visibility="invisible"></TextView>
+
+<AutoCompleteTextView android:layout_height="wrap_content" android:hint="@string/stkin_reg_code" android:id="@+id/stkin_reg_aetCode" android:layout_below="@+id/stkin_reg_tvCode" android:layout_width="255dp"></AutoCompleteTextView>
+
+<CheckBox android:layout_height="wrap_content" android:layout_toRightOf="@+id/stkin_reg_etCode" android:layout_below="@+id/stkin_reg_tvCode" android:layout_width="wrap_content" android:gravity="top" android:layout_marginLeft="10dp" android:id="@+id/stkin_reg_chkSocket" android:visibility="gone"></CheckBox>
+
+</RelativeLayout><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/stkin_reg_tvEa" android:text="@string/stkin_reg_ea"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/stkin_reg_ea" android:id="@+id/stkin_reg_etEa" android:numeric="integer"></EditText>
+<TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/stkin_reg_tvDate" android:text="@string/stkin_reg_date"></TextView><Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/stkin_reg_btnDate" android:hint="0000-00-00 00:00:00"></Button>
+
+<Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10dp" android:textSize="25px" android:textStyle="bold" android:text="@string/btnSubmit" android:id="@+id/stkin_reg_btnSubmit"></Button>
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

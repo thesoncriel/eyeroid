@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:gravity="left" android:orientation="vertical" android:id="@+id/linearLayoutCusSearch">
+	
+	<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="top" android:background="@drawable/bg_common_sch"><CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100dp" android:freezesText="false" android:text="예약된 고객 " android:ellipsize="none" android:layout_marginTop="-5dp" android:id="@+id/cusSch_chkReserv"></CheckBox><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:width="220dp" android:hint="고객 전화번호 or 이름" android:layout_marginTop="5dp" android:id="@+id/cusSch_etSearch"></EditText></LinearLayout>
+
+
+
+
+
+
+<ListView android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollingCache="false" android:cacheColorHint="#A1A8AA" android:id="@+id/cusSch_lvList"></ListView>
+</LinearLayout>

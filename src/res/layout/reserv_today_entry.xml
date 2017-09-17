@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:background="@drawable/bg_cou_sch"><TextView android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:id="@+id/resToday_tvDate" android:text="0000-00-00" android:layout_width="200dp"></TextView><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="300dp" android:layout_marginLeft="8dp" android:paddingTop="5dp" android:paddingBottom="10dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:background="@drawable/bg_cou_sch_text" android:layout_below="@+id/couSch_tvCouDateLabel" android:layout_marginTop="20dp">
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:id="@+id/resToday_tvName" android:text="이름 " android:layout_width="100dp"></TextView><TextView android:layout_height="wrap_content" android:textColor="#000000" android:layout_width="140dp" android:layout_marginLeft="10dp" android:id="@+id/resToday_tvPhon" android:text="000-0000-0000"></TextView></LinearLayout><TextView android:layout_height="wrap_content" android:textColor="#000000" android:textSize="20px" android:layout_width="280dp" android:id="@+id/resToday_tvCont" android:text="상담내용"></TextView>
+<TextView android:text="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/resToday_tvAccDate" android:visibility="gone"></TextView>
+</LinearLayout></RelativeLayout>

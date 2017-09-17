@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="svn">공급처명</string>
+
+<string name="app_name">Eyeroid 1.0</string>
+
+
+<!-- 메인메뉴 -->
+<string name="main_top_reserv">오늘 예약 : #n건 </string>
+<string name="main_top_stock">부족한 재고 : #n건 </string>
+<string name="main_menu_0">고객 관리</string>
+<string name="main_menu_1">입고 관리</string>
+<string name="main_menu_2">매출 관리</string>
+<string name="main_menu_3">상품 관리</string>
+
+<!-- 사이드 관리 -->
+<string name="reserv_today">오늘의 예약 목록</string>
+<string name="less_stock">부족한 재고 목록</string>
+
+<!-- 고객 관리 -->
+<string name="cus_main_cus_reg">고객 등록</string>
+<string name="cus_main_cus_sch">고객 검색</string>
+<string name="cus_main_cou_reg">상담 및 예약 접수</string>
+<string name="cus_main_aft_reg">A/S 접수</string>
+
+<!-- 고객 관리 : 고객 등록 -->
+<string name="cus_info">고객 정보</string>
+<string name="cus_reg_phon">고객 연락처 *</string>
+<string name="cus_reg_name">고객 성명 </string>
+<string name="cus_reg_car_type">차종 </string>
+<string name="cus_reg_car_num">차량 번호 </string>
+<string name="cus_reg_date">등록 일자 </string>
+<string name="cus_reg_service">함께 등록 할 서비스 </string>
+
+<string-array name="srv_list">
+	<item>없음</item>
+	<item>예약 / 문의</item>
+	<item>설치 / 판매</item>
+	<item>A/S</item>
+</string-array>
+
+<!-- 고객관리:상담 내역 -->
+<string name="cou_info">상담 및 예약 정보</string>
+<string name="cus_reg_cont">상담 내용 </string>
+<string name="cus_reg_acc_date">접수 일시 </string>
+<string name="cus_reg_res_date">예약 일시 </string>
+<string name="cus_reg_res_date_nothing">없음 (등록시 터치)</string>
+
+<!-- 고객관리 : A/S 내역 -->
+<string-array name="aft_reg_warranty_list">
+	<item>유상</item>
+	<item>무상</item>
+</string-array>
+
+<!-- A / S   -->
+<string name="aft_info">A/S 정보</string>
+<string name="aft_reg_acc_num">접수번호 </string>
+<string name="aft_reg_acc_date">접수일시 </string>
+<string name="aft_reg_cus_name">고객명 </string>
+<string name="aft_reg_cus_addr">주소 </string>
+<string name="aft_reg_cus_phon">연락처 </string>
+<string name="aft_reg_model">모델명 </string>
+<string name="aft_reg_make_num">제조번호 </string>
+<string name="aft_reg_sal_date">구입일자 </string>
+<string name="aft_reg_warranty">보증구분 </string>
+<string name="aft_reg_acc_cont">접수내용 </string>
+<string name="aft_reg_acc_name">접수자 </string>
+<string name="aft_reg_pro_date">처리일자 </string>
+<string name="aft_reg_fixprice">수리금액 </string>
+<string name="aft_reg_car_num">차량번호 </string>
+<string name="aft_reg_run_dist">주행거리(km) </string>
+<string name="aft_reg_car_body">차대번호 </string>
+
+<!-- 고객관리: 탭 기능 -->
+<string name="cus_tab_0">고객정보</string>
+<string name="cus_tab_1">예약/문의</string>
+<string name="cus_tab_2">구매내역</string>
+<string name="cus_tab_3">A/S 내역 </string>
+
+<!-- 입고관리 -->
+<string name="stkin_main_reg">상품 입고</string>
+<string name="stkin_main_camera">카메라 바로가기 </string>
+
+<!-- 입고 관리 : 상품 입고 -->
+<string name="stkin_reg_name">이름 </string>
+<string name="stkin_reg_model">모델명 </string>
+<string name="stkin_reg_code">바코드  값 </string>
+<string name="stkin_reg_ea">개수 </string>
+<string name="stkin_reg_date">날짜 </string>
+<string name="stkin_reg_socket">소켓 카메라 </string>
+<string name="stkin_reg_new_data">
+에 해당되는 자료가 존재하지 않습니다.\\n
+입력하신 내용을 재고 목록에 새로 추가 합니다.
+</string>
+<string name="stkin_reg_code_error"></string>
+
+<!-- 매출관리 -->
+<string name="sal_info">매출 정보</string>
+<string name="sal_main_sch">매출 내역 </string>
+<string name="sal_main_reg">매출 등록 </string>
+
+<!-- 매출 관리 :매출 등록  -->
+<string name="sal_reg_date">판매일시  </string>
+<string name="srv_name">서비스명 </string>
+<string name="sal_price">판매가격 </string>
+<string name="sal_serial">시리얼번호  </string>
+<string name="cus_phon">고객연락처 </string>
+<string name="car_type">차종 </string>
+<string name="car_num">차번호 </string>
+
+<!-- 상품관리 -->
+<string name="srv_info">상품 정보</string>
+<string name="srv_main_sch">상품 검색 </string>
+<string name="srv_main_reg">상품 등록 </string>
+<string name="srv_main_stk_sch">재고 검색 </string>
+<string name="srv_main_stk_reg">재고 등록</string>
+
+<!-- 상품 관리 : 상품 등록 --> 
+<string name="srvReg_name">이 름 </string>
+<string name="srvReg_price">판매가 </string>
+<string name="srvReg_list">소비하는 물품 </string>
+<string name="srvReg_list1">내용1 </string>
+<string name="srvReg_list2">내용2 </string>
+<string name="srvReg_list3">내용3 </string>
+<string name="srvReg_list4">내용4 </string>
+<string name="srv_reg_error1">
+이란 이름을 가진 서비스가 이미 존재 합니다.\n다른 이름으로 다시 작성하여 주십시요.
+</string>
+
+<!-- 상품 관리 : 상품 검색 -->
+<string name="srvSch_colName1">매출 누계 </string>
+<string name="srvSch_colName2">상품명 </string>
+<string name="srvSch_colName3">가격 </string>
+
+<!-- 재고 관리 : 재고 등록 -->
+<string name="stk_info">재고 정보</string>
+<string name="stk_reg_name">상품명 </string>
+<string name="stk_reg_cate">분류명 </string>
+<string name="stk_reg_model">모델명 </string>
+<string name="stk_reg_code">바코드 값 </string>
+<string name="stk_reg_ea">재고량 </string>
+<string name="stk_reg_alertEa">경고량 </string>
+<string name="stk_reg_maker">제조사/공급처 </string>
+<string name="stk_reg_date">최근 입고 일자 </string>
+
+<!-- 공통  -->
+<string name="com_sch_etSearch_hint"></string>
+<string name="btnMod">수정 </string>
+<string name="btnDel">삭제 </string>
+<string name="btnOK">확인 </string>
+<string name="btnSubmit">작성 완료</string>
+<string name="submit_complete">자료 입력을 완료 하였습니다.</string>
+<string name="btnModify">수정 완료</string>
+<string name="modify_complete">자료 수정을 완료 하였습니다.</string>
+<string name="delete_question">정말 삭제 하시겠습니까?
+한번 삭제된 데이터는 복구할 수 없습니다.</string>
+<string name="delete_complete">자료 삭제를 완료 하였습니다.</string>
+<string name="copyleft">(c)2010 Team Deneb</string>
+
+<!-- DateTimePicker -->
+<string name="date_time_picker_title">날짜와 시간을 선택하세요</string>
+<string name="date_time_picker_title_date">날짜를 선택하세요</string>
+<string name="date_time_picker_title_time">시간을 선택하세요</string>
+<string name="date_time_picker_date">날짜 선택  </string>
+<string name="date_time_picker_time">시간 선택 </string>
+
+
+
+<!-- 테이블 정의 및 제거 -->
+<string name="create_table_cus">
+<![CDATA[
+	create table if not exists cus(				/****고객 테이블****/
+		cus_phon varchar(13) primary key,	/*고객 연락처*/
+		cus_name varchar(20),			/*고객명*/
+		car_type varchar(20),			/*차종*/
+		car_num varchar(20),			/*차량번호*/
+		reg_date char(10)			/*등록일자*/
+	);
+]]>
+</string>
+<string name="create_table_sal">
+<![CDATA[
+	create table if not exists sal(				/****판매 테이블****/
+		sal_date char(14) primary key,		/*판매 일시*/
+		srv_name varchar(30),			/*서비스명*/
+		price int,				/*판매 가격*/
+		serial varchar(20),			/*시리얼 번호*/
+		cus_phon varchar(13),			/*고객 연락처*/
+		car_type varchar(20),			/*차종*/
+		car_num varchar(20)			/*차 번호*/
+	);
+]]>
+</string>
+<string name="create_table_srv">
+<![CDATA[
+	create table if not exists srv(				/****서비스 테이블****/
+		srv_name varchar(30) primary key,			/*서비스명*/
+		price int,				/*가격*/
+		stk1 varchar(30),			/*사용 재고품 1*/
+		stk2 varchar(30),			/*사용 재고품 2*/
+		stk3 varchar(30),			/*사용 재고품 3*/
+		stk4 varchar(30)			/*사용 재고품 4*/
+	);
+]]>
+</string>
+<string name="create_table_aft">
+<![CDATA[
+	create table if not exists aft(				/****A/S 테이블****/
+		acc_num varchar(20),			/*접수 번호*/
+		acc_date char(14) primary key,		/*접수 일시*/
+		cus_name varchar(20),			/*고객명*/
+		addr text,				/*주소*/
+		cus_phon varchar(13),			/*연락처*/
+		model varchar(30),			/*모델명*/
+		make_num varchar(20),			/*제조번호(품번)*/
+		pur_date char(10),			/*구입일자*/
+		warranty char(2),			/*보증구분*/
+		acc_cont text,				/*접수 내용*/
+		acc_name varchar(20),			/*접수자*/
+		pro_date char(8),			/*처리 일자*/
+		fixprice int,				/*수리금액*/
+		car_num varchar(20),			/*차번호*/
+		run_dist int,				/*주행거리*/
+		car_body varchar(20)			/*차대번호*/
+	);
+]]>
+</string>
+<string name="create_table_cou">
+<![CDATA[
+	create table if not exists cou(				/****상담 및 예약 테이블****/
+		cus_phon varchar(13),			/*연락처*/
+		cus_name varchar(20),			/*고객명*/
+		cus_cont text,				/*상담내용*/
+		acc_date char(19) primary key,		/*접수일시*/
+		res_date char(19)			/*예약일시*/
+	);
+]]>
+</string>
+<string name="create_table_stk">
+<![CDATA[
+	create table if not exists stk(				/****재고 상품 테이블****/
+		stk_name varchar(30),			/*재고 상품명*/
+		cate varchar(20),			/*분류*/
+		model varchar(30),			/*모델명*/
+		code varchar(30) primary key,	/*바코드 번호*/
+		ea int,					/*개수*/
+		alert_ea int,				/*경고 개수*/
+		maker varchar(20),			/*제조사*/
+		lastdate char(10)			/*최근 입고 일자*/
+	);
+]]>
+</string>
+<string name="drop_table_cus">drop table cus;</string>
+<string name="drop_table_sal">drop table sal;</string>
+<string name="drop_table_srv">drop table srv;</string>
+<string name="drop_table_aft">drop table aft;</string>
+<string name="drop_table_cou">drop table cou;</string>
+<string name="drop_table_stk">drop table stk;</string>
+
+
+
+<!-- 보리가 한것임 -->
+
+
+
+<!-- A / S 리스트 -->
+
+<string name="aftInfo_btnMod">수정 </string>
+<string name="aftInfo_btnDel">삭제 </string>
+<string name="aftInfo_btnOK">확인 </string>
+
+
+
+
+<!-- 공급처명 -->
+
+<string name="stkinReg3_svn">공급 처명 </string>
+<string name="stkinReg3_name">대표자 </string>
+<string name="stkinReg3_phone">연락처 </string>
+<string name="stkinReg3_add">주소 </string>
+
+
+<!-- 형준이가 만든 부분  -->
+
+
+
+
+
+
+
+
+
+</resources>

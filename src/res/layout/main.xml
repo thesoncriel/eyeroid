@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp"><TextView android:id="@+id/tvReserv" android:layout_height="wrap_content" android:text="@string/main_top_reserv" android:layout_marginTop="15dp" android:textSize="18dp" android:background="@drawable/bg_main_top_left" android:gravity="center_vertical|center" android:layout_width="140dp"/><TextView android:id="@+id/tvStock" android:layout_height="wrap_content" android:text="@string/main_top_stock" android:layout_alignParentRight="true" android:layout_marginTop="15dp" android:textSize="18dp" android:background="@drawable/bg_main_top_right" android:gravity="right|center_vertical|center" android:layout_width="170dp"/></RelativeLayout><Button android:id="@+id/btnMain0" android:text="@string/main_menu_0" android:layout_width="fill_parent" android:textSize="32px" android:textStyle="bold" android:layout_height="75px" android:drawableLeft="@drawable/icon_main_0"></Button>
+<Button android:id="@+id/btnMain1" android:text="@string/main_menu_1" android:layout_width="fill_parent" android:textSize="32px" android:textStyle="bold" android:layout_height="75px" android:drawableLeft="@drawable/icon_main_1"></Button>
+<Button android:id="@+id/btnMain2" android:text="@string/main_menu_2" android:layout_width="fill_parent" android:textSize="32px" android:textStyle="bold" android:layout_height="75px" android:drawableLeft="@drawable/icon_main_2"></Button>
+<Button android:id="@+id/btnMain3" android:text="@string/main_menu_3" android:layout_width="fill_parent" android:textSize="32px" android:textStyle="bold" android:layout_height="75px" android:drawableLeft="@drawable/icon_main_3"></Button>
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/main_tvCopyleft" android:text="@string/copyleft"></TextView>
+<ImageView android:id="@+id/ImageView01" android:src="@drawable/logo_deneb_no_team" android:layout_height="50dp" android:layout_width="50dp" android:layout_marginLeft="50dp"></ImageView>
+</LinearLayout>

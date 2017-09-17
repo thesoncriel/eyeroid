@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_aft_sch"><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"><TextView android:layout_below="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/aftSch_tvProDate" android:text="0000-00-00" android:layout_marginLeft="15dp"></TextView><TextView android:layout_height="wrap_content" android:text="네비게이션 스피커 단선 " android:id="@+id/aftSch_tvAccCont" android:textSize="18dp" android:layout_marginLeft="10dp" android:layout_width="230dp" android:singleLine="true"></TextView>
+
+</LinearLayout><TextView android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout01" android:layout_height="wrap_content" android:text="@+id/TextView01" android:id="@+id/aftSch_tvAccDate" android:visibility="gone"></TextView><TextView android:text="50000" android:id="@+id/aftSch_tvFixPrice" android:layout_height="wrap_content" android:textSize="17dp" android:layout_marginTop="20dp" android:layout_marginLeft="250dp" android:layout_width="60dp"></TextView>
+
+
+</RelativeLayout>

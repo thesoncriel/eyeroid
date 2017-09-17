@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:orientation="vertical"><TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/srvReg_tvName" android:text="@string/srvReg_name"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/srvReg_name" android:id="@+id/srvReg_etName"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/srvReg_tvPrice" android:text="@string/srvReg_price"></TextView>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/srvReg_etPrice" android:hint="@string/srvReg_price" android:numeric="integer"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/srvReg_tvList" android:text="@string/srvReg_list"></TextView>
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><AutoCompleteTextView android:layout_height="50dp" android:hint="@string/srvReg_list1" android:id="@+id/srvReg_aetStk1" android:layout_width="270dp"></AutoCompleteTextView><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_small" android:id="@+id/srvReg_ibCamera1" android:padding="0dp"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent"><AutoCompleteTextView android:layout_height="50dp" android:hint="@string/srvReg_list2" android:id="@+id/srvReg_aetStk2" android:layout_width="270dp"></AutoCompleteTextView><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_small" android:id="@+id/srvReg_ibCamera2" android:padding="0dp"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="fill_parent"><AutoCompleteTextView android:layout_height="50dp" android:hint="@string/srvReg_list3" android:id="@+id/srvReg_aetStk3" android:layout_width="270dp"></AutoCompleteTextView><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_small" android:id="@+id/srvReg_ibCamera3" android:padding="0dp"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_height="wrap_content" android:layout_width="fill_parent"><AutoCompleteTextView android:layout_height="50dp" android:hint="@string/srvReg_list4" android:id="@+id/srvReg_aetStk4" android:layout_width="270dp"></AutoCompleteTextView><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_camera_small" android:id="@+id/srvReg_ibCamera4" android:padding="0dp"></ImageButton>
+</LinearLayout>
+<Button android:layout_width="fill_parent" android:layout_height="70dp" android:text="@string/btnSubmit" android:textSize="20px" android:id="@+id/srvReg_btnSubmit"></Button>
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:background="@drawable/bg_common_sch"><EditText android:layout_width="250dp" android:layout_height="52dp" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:id="@+id/stkSch_etSearch"></EditText><ImageButton android:layout_height="48dp" android:layout_width="48dp" android:src="@drawable/icon_clock" android:adjustViewBounds="true" android:paddingBottom="0dp" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingTop="0dp" android:layout_marginTop="5dp" android:id="@+id/stkSch_ibDate"></ImageButton></LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"></LinearLayout><ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#A1A8AA" android:scrollingCache="false" android:id="@+id/stkSch_lvList"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="eyeroid_theme" parent="android:Theme">
+	<item name="android:windowBackground">@drawable/bg_main</item>
+	<item name="android:textColor">#222222</item>
+	<item name="android:windowTitleStyle">@style/eyeroid_title</item>
+	<item name="android:tabWidgetStyle">@style/eyeroid_tabWidget</item>
+</style>
+
+<style name="eyeroid_title" parent="android:TextAppearance.WindowTitle">
+	<item name="android:textColor">#eeeeee</item>
+</style>
+
+<style name="eyeroid_tabWidget" parent="android:TextAppearance.Widget.TabWidget">
+	<item name="android:textSize">14sp</item>
+	<item name="android:textStyle">normal</item>
+	<item name="android:textColor">#222222</item>
+</style>
+
+</resources>

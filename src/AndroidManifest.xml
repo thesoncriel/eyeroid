@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="deneb.eyeroid"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:icon="@drawable/icon_app" android:theme="@style/eyeroid_theme">
+        <activity android:name=".main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="CustomerRegist"></activity>
+    
+<activity android:name="CustomerSearch"></activity>
+<activity android:name="CounselRegist"></activity>
+<activity android:name="CustomerInfo"></activity>
+<activity android:name="AfterRegist"></activity>
+<activity android:name="AfterRegist2"></activity>
+<activity android:name="CustomerTabView"></activity>
+<activity android:name="CounselSearch"></activity>
+<activity android:name="AfterSearch"></activity>
+<activity android:name="ReservToday"></activity>
+<activity android:name="ReservToday"></activity>
+<activity android:name="StockInRegist"></activity>
+<activity android:name="deneb.camera.SocketCameraView" android:screenOrientation="landscape"></activity>
+<activity android:name="SalesRegist"></activity>
+<activity android:name="SalesSearch"></activity>
+<activity android:name="ServiceRegist"></activity>
+<activity android:name="ServiceSearch"></activity>
+<activity android:name="StockSearch"></activity>
+<activity android:name="PurchaseSearch"></activity>
+<activity android:name="StockRegist"></activity>
+<activity android:name="AfterInfo"></activity>
+<activity android:name="CounselInfo"></activity>
+<activity android:name="SalesInfo"></activity>
+<activity android:name="ServiceInfo"></activity>
+<activity android:name="StockInfo"></activity>
+</application>
+
+<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest> 

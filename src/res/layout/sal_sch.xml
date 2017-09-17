@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:background="@drawable/bg_common_sch"><CheckBox android:layout_height="wrap_content" android:id="@+id/salSch_chkToday" android:text="오늘 " android:layout_width="wrap_content" android:checked="true" android:layout_marginTop="5dp"></CheckBox><EditText android:layout_height="52dp" android:id="@+id/salSch_etSearch" android:layout_width="195dp" android:layout_marginTop="5dp"></EditText><ImageButton android:layout_height="48dp" android:layout_width="48dp" android:src="@drawable/icon_clock" android:adjustViewBounds="true" android:paddingBottom="0dp" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingTop="0dp" android:id="@+id/salSch_ibDate" android:layout_marginTop="5dp"></ImageButton>
+
+
+</LinearLayout>
+
+
+
+<RelativeLayout android:layout_width="wrap_content" android:layout_above="@+id/salSch_tvTodayValue" android:layout_toRightOf="@+id/salSch_tvToday" android:id="@+id/RelativeLayout02" android:layout_height="fill_parent"><ListView android:cacheColorHint="#A1A8AA" android:scrollingCache="false" android:id="@+id/salSch_lvSearch" android:layout_width="fill_parent" android:layout_height="wrap_content"></ListView><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:background="@drawable/bg_sal_sch2" android:layout_height="43dp" android:layout_alignParentBottom="true"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/salSch_tvToday" android:text="오늘 매출 " android:layout_marginTop="5dp" android:textStyle="bold" android:soundEffectsEnabled="true" android:shadowDx="3" android:shadowDy="3" android:shadowColor="#444444" android:shadowRadius="3"></TextView><TextView android:layout_toRightOf="@+id/salSch_tvToday" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/salSch_tvTodayValue" android:textSize="30dp" android:width="130dp" android:gravity="right" android:text="0000000" android:layout_marginTop="5dp"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/salSch_tvYester" android:text="어제 매출 " android:layout_alignParentRight="true" android:layout_marginTop="5dp" android:textStyle="bold" android:soundEffectsEnabled="true" android:shadowDx="3" android:shadowDy="3" android:shadowColor="#444444" android:shadowRadius="3"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/salSch_tvYesterValue" android:layout_alignParentRight="true" android:layout_below="@+id/salSch_tvYester" android:textSize="17dp" android:text="0000000" android:layout_marginRight="15dp"></TextView>
+
+</RelativeLayout></RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>
